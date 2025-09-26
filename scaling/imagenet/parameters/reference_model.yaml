@@ -1,0 +1,2 @@
+reference_model: torch_linear_classifier_imagenet_lr0.001bs250_ne50
+cluster: false

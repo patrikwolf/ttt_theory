@@ -1,0 +1,2 @@
+linear_head: mnist_linear_classifier_lr0.005bs400_ne100
+cluster: false

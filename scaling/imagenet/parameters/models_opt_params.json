@@ -1,0 +1,110 @@
+{
+    "250": {
+        "learning_rate": 0.0004,
+        "weight_decay": 0,
+        "batch_size": 450,
+        "num_epochs": 50,
+        "dropout_rate": 0.05,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "300": {
+        "learning_rate": 0.00035,
+        "weight_decay": 0,
+        "batch_size": 400,
+        "num_epochs": 50,
+        "dropout_rate": 0.05,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "375": {
+        "learning_rate": 0.00035,
+        "weight_decay": 0,
+        "batch_size": 300,
+        "num_epochs": 50,
+        "dropout_rate": 0.15,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "500": {
+        "learning_rate": 0.00035,
+        "weight_decay": 0,
+        "batch_size": 350,
+        "num_epochs": 50,
+        "dropout_rate": 0.25,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "750": {
+        "learning_rate": 0.0003,
+        "weight_decay": 0,
+        "batch_size": 300,
+        "num_epochs": 50,
+        "dropout_rate": 0.3,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "1000": {
+        "learning_rate": 0.0004,
+        "weight_decay": 0,
+        "batch_size": 450,
+        "num_epochs": 50,
+        "dropout_rate": 0.35,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "1250": {
+        "learning_rate": 0.00035,
+        "weight_decay": 0,
+        "batch_size": 350,
+        "num_epochs": 50,
+        "dropout_rate": 0.45,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "1500": {
+        "learning_rate": 0.0004,
+        "weight_decay": 0,
+        "batch_size": 300,
+        "num_epochs": 50,
+        "dropout_rate": 0.55,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "2000": {
+        "learning_rate": 0.0004,
+        "weight_decay": 0,
+        "batch_size": 400,
+        "num_epochs": 50,
+        "dropout_rate": 0.6,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "2500": {
+        "learning_rate": 0.00035,
+        "weight_decay": 0,
+        "batch_size": 450,
+        "num_epochs": 50,
+        "dropout_rate": 0.65,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "3000": {
+        "learning_rate": 0.00045,
+        "weight_decay": 0,
+        "batch_size": 450,
+        "num_epochs": 50,
+        "dropout_rate": 0.7,
+        "cluster": true,
+        "found_optimum": true
+    },
+    "4000": {
+        "learning_rate": 0.00045,
+        "weight_decay": 0,
+        "batch_size": 650,
+        "num_epochs": 50,
+        "dropout_rate": 0.7,
+        "cluster": true,
+        "found_optimum": true
+    }
+}

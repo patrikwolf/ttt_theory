@@ -1,0 +1,191 @@
+{
+  "25": {
+    "finetune_lr": 0.05,
+    "finetune_epochs": 50,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "50": {
+    "finetune_lr": 0.005,
+    "finetune_epochs": 200,
+    "num_neighbors": 50,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "64": {
+    "finetune_lr": 0.05,
+    "finetune_epochs": 100,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "80": {
+    "finetune_lr": 0.01,
+    "finetune_epochs": 200,
+    "num_neighbors": 10,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "96": {
+    "finetune_lr": 0.01,
+    "finetune_epochs": 200,
+    "num_neighbors": 50,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "112": {
+    "finetune_lr": 0.005,
+    "finetune_epochs": 200,
+    "num_neighbors": 100,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "128": {
+    "finetune_lr": 0.01,
+    "finetune_epochs": 200,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "144": {
+    "finetune_lr": 0.01,
+    "finetune_epochs": 200,
+    "num_neighbors": 100,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "160": {
+    "finetune_lr": 0.01,
+    "finetune_epochs": 200,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "176": {
+    "finetune_lr": 0.005,
+    "finetune_epochs": 200,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "192": {
+    "finetune_lr": 0.01,
+    "finetune_epochs": 50,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "208": {
+    "finetune_lr": 0.005,
+    "finetune_epochs": 200,
+    "num_neighbors": 50,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "224": {
+    "finetune_lr": 0.001,
+    "finetune_epochs": 200,
+    "num_neighbors": 50,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "240": {
+    "finetune_lr": 0.005,
+    "finetune_epochs": 200,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "256": {
+    "finetune_lr": 0.005,
+    "finetune_epochs": 200,
+    "num_neighbors": 50,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "272": {
+    "finetune_lr": 0.01,
+    "finetune_epochs": 200,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "288": {
+    "finetune_lr": 0.001,
+    "finetune_epochs": 100,
+    "num_neighbors": 100,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "304": {
+    "finetune_lr": 0.01,
+    "finetune_epochs": 200,
+    "num_neighbors": 50,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "320": {
+    "finetune_lr": 0.001,
+    "finetune_epochs": 200,
+    "num_neighbors": 50,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "352": {
+    "finetune_lr": 0.001,
+    "finetune_epochs": 200,
+    "num_neighbors": 100,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "384": {
+    "finetune_lr": 0.001,
+    "finetune_epochs": 200,
+    "num_neighbors": 100,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "416": {
+    "finetune_lr": 0.001,
+    "finetune_epochs": 100,
+    "num_neighbors": 100,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "448": {
+    "finetune_lr": 0.001,
+    "finetune_epochs": 200,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "480": {
+    "finetune_lr": 0.005,
+    "finetune_epochs": 200,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "512": {
+    "finetune_lr": 0.005,
+    "finetune_epochs": 200,
+    "num_neighbors": 100,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "832": {
+      "finetune_lr": 0.001,
+      "finetune_epochs": 200,
+      "num_neighbors": 50,
+      "cluster": true,
+      "found_optimum": true
+  },
+  "1152": {
+    "finetune_lr": 0.001,
+    "finetune_epochs": 200,
+    "num_neighbors": 200,
+    "cluster": true,
+    "found_optimum": true
+  }
+}

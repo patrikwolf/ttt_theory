@@ -1,0 +1,107 @@
+{
+  "1": {
+    "num_neighbors": 60,
+    "finetune_lr": 0.0006,
+    "finetune_epochs": 2,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "3": {
+    "num_neighbors": 50,
+    "finetune_lr": 0.0002,
+    "finetune_epochs": 1,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "10": {
+    "num_neighbors": 30,
+    "finetune_lr": 0.0006,
+    "finetune_epochs": 2,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "30": {
+    "num_neighbors": 60,
+    "finetune_lr": 0.001,
+    "finetune_epochs": 1,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "50": {
+    "num_neighbors": 50,
+    "finetune_lr": 0.0006,
+    "finetune_epochs": 2,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "100": {
+    "num_neighbors": 30,
+    "finetune_lr": 0.0008,
+    "finetune_epochs": 2,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "300": {
+    "num_neighbors": 40,
+    "finetune_lr": 0.0004,
+    "finetune_epochs": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "500": {
+      "num_neighbors": 5,
+      "finetune_lr": 0.0006,
+      "finetune_epochs": 2,
+      "cluster": true,
+      "found_optimum": true
+  },
+  "1000": {
+      "num_neighbors": 30,
+      "finetune_lr": 0.0006,
+      "finetune_epochs": 10,
+      "cluster": true,
+      "found_optimum": true
+  },
+  "3000": {
+    "num_neighbors": 20,
+    "finetune_lr": 0.0004,
+    "finetune_epochs": 30,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "5000": {
+    "num_neighbors": 20,
+    "finetune_lr": 0.0004,
+    "finetune_epochs": 30,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "10000": {
+    "num_neighbors": 30,
+    "finetune_lr": 0.0006,
+    "finetune_epochs": 20,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "30000": {
+      "num_neighbors": 30,
+      "finetune_lr": 0.0004,
+      "finetune_epochs": 70,
+      "cluster": true,
+      "found_optimum": true
+  },
+  "40000": {
+      "num_neighbors": 40,
+      "finetune_lr": 0.0004,
+      "finetune_epochs": 35,
+      "cluster": true,
+      "found_optimum": true
+  },
+  "50000": {
+    "num_neighbors": 20,
+    "finetune_lr": 0.0004,
+    "finetune_epochs": 40,
+    "cluster": true,
+    "found_optimum": true
+  }
+}

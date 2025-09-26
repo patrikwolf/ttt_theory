@@ -1,0 +1,3 @@
+reference_model: torch_global_classifier_mnist_ot-adam_lr0.005bs400_ne50
+size_scale: 0.5
+cluster: false

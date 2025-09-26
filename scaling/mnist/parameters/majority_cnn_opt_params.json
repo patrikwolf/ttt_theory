@@ -1,0 +1,137 @@
+{
+  "25": {
+    "num_neighbors": 8,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "50": {
+    "num_neighbors": 5,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "64": {
+    "num_neighbors": 4,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "80": {
+    "num_neighbors": 8,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "96": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "112": {
+    "num_neighbors": 4,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "128": {
+    "num_neighbors": 5,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "144": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "160": {
+    "num_neighbors": 6,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "176": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "192": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "208": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "224": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "240": {
+    "num_neighbors": 4,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "256": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "272": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "288": {
+    "num_neighbors": 5,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "304": {
+    "num_neighbors": 5,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "320": {
+    "num_neighbors": 6,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "352": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "384": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "416": {
+    "num_neighbors": 4,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "448": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "480": {
+    "num_neighbors": 3,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "512": {
+    "num_neighbors": 4,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "832": {
+    "num_neighbors": 4,
+    "cluster": true,
+    "found_optimum": true
+  },
+  "1152": {
+    "num_neighbors": 4,
+    "cluster": true,
+    "found_optimum": true
+  }
+}

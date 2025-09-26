@@ -1,0 +1,245 @@
+{
+  "25": {
+    "learning_rate": 0.006,
+    "batch_size": 500,
+    "num_epochs": 50,
+    "size_scale": 0.35,
+    "optimization_type": "adam",
+    "cluster": false,
+    "found_optimum": true
+  },
+  "50": {
+      "learning_rate": 0.002,
+      "batch_size": 200,
+      "num_epochs": 50,
+      "size_scale": 0.5,
+      "optimization_type": "adam",
+      "cluster": true,
+      "found_optimum": true
+  },
+  "64": {
+      "learning_rate": 0.006,
+      "batch_size": 400,
+      "num_epochs": 100,
+      "size_scale": 0.6,
+      "optimization_type": "adam",
+      "cluster": true,
+      "found_optimum": true
+  },
+  "80": {
+    "learning_rate": 0.001,
+    "batch_size": 400,
+    "num_epochs": 100,
+    "size_scale": 0.65,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "96": {
+    "learning_rate": 0.002,
+    "batch_size": 400,
+    "num_epochs": 50,
+    "size_scale": 0.7,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "112": {
+    "learning_rate": 0.0008,
+    "batch_size": 500,
+    "num_epochs": 50,
+    "size_scale": 0.75,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "128": {
+    "learning_rate": 0.0008,
+    "batch_size": 600,
+    "num_epochs": 100,
+    "size_scale": 0.8,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "144": {
+    "learning_rate": 0.001,
+    "batch_size": 500,
+    "num_epochs": 100,
+    "size_scale": 0.85,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "160": {
+    "learning_rate": 0.0006,
+    "batch_size": 500,
+    "num_epochs": 100,
+    "size_scale": 0.9,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+    },
+  "176": {
+    "learning_rate": 0.0006,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 0.95,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "192": {
+    "learning_rate": 0.0008,
+    "batch_size": 100,
+    "num_epochs": 50,
+    "size_scale": 1.0,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "208": {
+    "learning_rate": 0.001,
+    "batch_size": 400,
+    "num_epochs": 50,
+    "size_scale": 1.05,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "224": {
+    "learning_rate": 0.0006,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 1.1,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "240": {
+      "learning_rate": 0.0006,
+      "batch_size": 300,
+      "num_epochs": 100,
+      "size_scale": 1.15,
+      "optimization_type": "adam",
+      "cluster": true,
+      "found_optimum": true
+  },
+  "256": {
+    "learning_rate": 0.002,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 1.2,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "272": {
+    "learning_rate": 0.002,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 1.25,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "288": {
+    "learning_rate": 0.002,
+    "batch_size": 500,
+    "num_epochs": 100,
+    "size_scale": 1.3,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "304": {
+    "learning_rate": 0.0008,
+    "batch_size": 100,
+    "num_epochs": 100,
+    "size_scale": 1.35,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "320": {
+    "learning_rate": 0.002,
+    "batch_size": 400,
+    "num_epochs": 100,
+    "size_scale": 1.4,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "352": {
+    "learning_rate": 0.002,
+    "batch_size": 400,
+    "num_epochs": 100,
+    "size_scale": 1.5,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "384": {
+    "learning_rate": 0.002,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 1.6,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "416": {
+    "learning_rate": 0.002,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 1.7,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "448": {
+    "learning_rate": 0.0006,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 1.8,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "480": {
+    "learning_rate": 0.002,
+    "batch_size": 400,
+    "num_epochs": 100,
+    "size_scale": 1.9,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "512": {
+    "learning_rate": 0.002,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 2.0,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "832": {
+    "learning_rate": 0.002,
+    "batch_size": 300,
+    "num_epochs": 100,
+    "size_scale": 3.0,
+    "optimization_type": "adam",
+    "cluster": true,
+    "found_optimum": true
+  },
+  "1152": {
+      "learning_rate": 0.0006,
+      "batch_size": 100,
+      "num_epochs": 50,
+      "size_scale": 4.0,
+      "optimization_type": "adam",
+      "cluster": true,
+      "found_optimum": true
+  }
+}
