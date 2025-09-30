@@ -4,6 +4,10 @@ This repository supports our paper, which investigates **why and when** Test-Tim
 models, even on in-distribution data. Our work provides both **theoretical and empirical evidence** for the mechanisms
 behind TTT, and identifies the regimes in which it is most effective.
 
+Please cite our work if you use this library in your research ([bibtex below](#citation)):
+
+- [Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models](https://arxiv.org/abs/2509.24510)
+
 ## 📈 Empirical Validation
 
 We validate the model’s key assumptions through experiments with sparse autoencoders on ImageNet and scaling studies on 
@@ -73,14 +77,18 @@ A description of how to run the experiments is provided in the `README.md` files
     - Parameters: `parameters/` includes optimal params, helpers, and references.
   - `log_book/`: Minimal logging helpers (`read_and_write.py`).
 
-## 📝 Citation
+## Citation
 
 If you use this repository in your research, please cite the accompanying work:
 
 ```bibtex
-Coming soon...
+@misc{hübotter2025specializationgeneralizationunderstandingtesttime,
+      title={Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models}, 
+      author={Jonas Hübotter and Patrik Wolf and Alexander Shevchenko and Dennis Jüni and Andreas Krause and Gil Kur},
+      year={2025},
+      eprint={2509.24510},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2509.24510}, 
+}
 ```
-
-## 🔑 License
-
-TBD. If a license file is added to the repository, that will supersede this note.
