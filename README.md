@@ -4,7 +4,7 @@ This repository supports our paper, which investigates **why and when** Test-Tim
 models, even on in-distribution data. Our work provides both **theoretical and empirical evidence** for the mechanisms
 behind TTT, and identifies the regimes in which it is most effective.
 
-Please cite our work if you use this library in your research ([bibtex below](#citation)):
+Please cite our work if you use this code, in full or in part, for your research (see [BibTeX below](#citation)):
 
 - [Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models](https://arxiv.org/abs/2509.24510)
 
