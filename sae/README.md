@@ -12,8 +12,38 @@ which extracts and **normalizes** the corresponding \<CLS\> token emebedding of 
 
 ## Usage of Trained Model
 
-To play with trained top-k sparse autoencoder, use the following snippet:
+To play with trained top-k sparse autoencoder, use the following snippet to load the model from HuggingFace:
 ```python
+import torch
+from sae.sae_topk import TopKSAE
+
+# Device configuration
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# Load the model from Hugging Face
+sae = TopKSAE.from_pretrained('patrikwolf/clip-topk-sae')
+
+# Example: random input vector
+input_dim = sae.input_dim
+clip_embedding = torch.randn(1, input_dim).to(device)
+
+# Forward pass
+with torch.no_grad():
+    output_tensor = sae(clip_embedding)
+
+print(f'Reconstructed output shape: {output_tensor["reconstruction"].shape}')
+print(f'Activations shape: {output_tensor["activated"].shape}')
+print(f'Pre-activations shape: {output_tensor["pre_activation"].shape}')
+print(f'Active mask shape: {output_tensor["active_mask"].shape}')
+print(f'Ghost loss: {output_tensor["ghost_loss"].item()}')
+```
+
+Alternatively, you can load the model from the local checkpoint as follows:
+
+```python
+import torch
+from sae.sae_topk import TopKSAE
+
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -37,17 +67,6 @@ sae = TopKSAE(
 sae.load_state_dict(checkpoint['model_state_dict'])
 sae.to(device)
 sae.eval()
-
-# Example input tensor
-input_dim = config['feature_dim']
-input_tensor = torch.randn(1, input_dim).to(device)
-output_tensor = sae(input_tensor)
-
-print(f'Reconstructed output shape: {output_tensor["reconstruction"].shape}')
-print(f'Activations shape: {output_tensor["activated"].shape}')
-print(f'Pre-activations shape: {output_tensor["pre_activation"].shape}')
-print(f'Active mask shape: {output_tensor["active_mask"].shape}')
-print(f'Ghost loss: {output_tensor["ghost_loss"].item()}')
 ```
 
 We provide the config file with training schedule for additional convenience in `config.json`.

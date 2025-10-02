@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from typing import Tuple, Dict
+from huggingface_hub import PyTorchModelHubMixin
 
 
 class TopKActivation(nn.Module):
@@ -20,7 +21,10 @@ class TopKActivation(nn.Module):
         return activated, topk_indices
 
 
-class TopKSAE(nn.Module):
+class TopKSAE(
+    nn.Module,
+    PyTorchModelHubMixin,
+):
 
     def __init__(
         self,
@@ -156,26 +160,3 @@ class TopKSAE(nn.Module):
         """Reset feature statistics tracking."""
         self.feature_counts.zero_()
         self.total_samples.zero_()
-
-
-def create_topk_sae(
-    input_dim: int = 512,
-    expansion_factor: int = 8,
-    k: int = 32,
-    use_ghost_grads: bool = True,
-    ghost_threshold: float = 0.0,
-    ghost_weight: float = 0.01,
-    **kwargs
-) -> TopKSAE:
-    """Create a TopK SAE"""
-    hidden_dim = input_dim * expansion_factor
-    
-    return TopKSAE(
-        input_dim=input_dim,
-        hidden_dim=hidden_dim,
-        k=k,
-        use_ghost_grads=use_ghost_grads,
-        ghost_threshold=ghost_threshold,
-        ghost_weight=ghost_weight,
-        **kwargs
-    )
