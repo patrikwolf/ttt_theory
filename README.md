@@ -1,5 +1,9 @@
 # Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models
 
+[![Paper](https://img.shields.io/badge/arXiv-2509.24510-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2509.24510)
+[![Model](https://img.shields.io/badge/HuggingFace-SAE-orange.svg?logo=huggingface)](https://huggingface.co/patrikwolf/clip-topk-sae)
+<!-- [![Code](https://img.shields.io/badge/GitHub-ttt__theory-blue.svg?logo=github)](https://github.com/patrikwolf/ttt_theory) -->
+
 This repository supports our paper, which investigates **why and when** Test-Time Training (TTT) improves foundation 
 models, even on in-distribution data. Our work provides both **theoretical and empirical evidence** for the mechanisms
 behind TTT, and identifies the regimes in which it is most effective.
