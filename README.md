@@ -94,13 +94,11 @@ A description of how to run the experiments is provided in the `README.md` files
 If you use this repository in your research, please cite the accompanying work:
 
 ```bibtex
-@misc{hübotter2025specializationgeneralizationunderstandingtesttime,
-      title={Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models}, 
-      author={Jonas Hübotter and Patrik Wolf and Alexander Shevchenko and Dennis Jüni and Andreas Krause and Gil Kur},
-      year={2025},
-      eprint={2509.24510},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2509.24510}, 
+@inproceedings{hubotter2026specialization,
+	title        = {Specialization after Generalization: Towards Understanding Test-Time Training in Foundation Models},
+	author       = {Jonas H{\"u}botter and Patrik Wolf and Aleksandr Shevchenko and Dennis J{\"u}ni and Andreas Krause and Gil Kur},
+	year         = 2026,
+	booktitle    = {The Fourteenth International Conference on Learning Representations},
+	url          = {https://openreview.net/forum?id=1c6Ao3CpKt}
 }
 ```
